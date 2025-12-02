@@ -1,0 +1,253 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+
+     font-family: "Caveat", cursive;
+    font-size: 23px;
+}
+
+body {
+    background-color:ivory ;
+}
+
+header {
+    background-color: gainsboro;
+    text-align: center;
+    padding: 20px 40px;
+}
+
+
+
+footer {
+    background-color: ghostwhite;
+    color:rgb(0, 0, 0);
+    padding: 20px 40px;
+}
+
+#about {
+    background-color: blanchedalmond;
+    padding: 20px 40px;
+    text-align: center;
+
+
+}
+
+#quarts {
+    text-align: right;
+    font-style: oblique;
+    font-size: 28px;
+}
+
+#articles {
+    padding: 20px 40px;
+    font-size: 28px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+p {
+    text-align: justify;
+    margin-top: 1.5rem;
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+}
+
+nav ul {
+list-style: none;
+text-transform: uppercase;
+
+
+
+
+}
+
+#content  {
+
+    background-color: blanchedalmond;
+
+h3 {
+    
+    font-size: 30px;
+    text-align: left;
+}
+
+h4 {
+    font-size: 30px;
+    text-align: left;
+}
+  
+    text-align: center;
+
+    p{
+          padding: 10px 20px;
+    }
+    
+}
+
+#content2 {
+
+    background-color: blanchedalmond;
+
+h3 {
+    
+    font-size: 30px;
+    text-align: left;
+}
+
+h4 {
+    font-size: 30px;
+    text-align: left;
+}
+  
+    text-align: center;
+
+    p{
+          padding: 0px 20px;
+    }
+}
+
+
+
+   
+#contact-form {
+
+    color: black;
+    padding: 10px 20px;
+    background-color: blanchedalmond;
+    text-align: center;
+}
+
+
+
+#contact-form input[type=text], 
+#contact-form input[type=email]{
+    height: 15px;
+    width: 240px;
+    color: black;
+    border: black solid 2px;
+    background-color: white;
+    padding: 15px;
+    border-radius: 15px;
+}
+#contact-form input[type=submit]{
+    color: bisque;
+    background-color: brown;
+    border-radius:16px;
+    width: 250px;
+    
+}
+
+
+#contact-form input[type=submit]:hover{
+    
+    background-color: rgb(134, 5, 240);
+    border: rgb(153, 0, 255) solid 2px;
+   
+}
+
+#contact-form textarea{
+    background-color: white;
+    border-radius: 16px;
+    color: black;
+    padding:13px;
+    width: 230px;
+    border: black solid 2px;
+}
+#contact-form select{
+    background-color: white;
+    border-radius: 13px;
+    color: black;
+    padding: 13px;
+    width: 265px;
+    border: black solid 2px;
+}
+
+#contact-form input[type=tel],
+#contact-form input[type=date]{
+    color: black;
+    width: 240px;
+    border: black solid 2px;
+    border-radius: 16px;
+}
+
+.my-table{
+    border: double 10px rgb(218, 48, 104);
+    border-collapse: collapse;
+}
+.my-table td,
+.my-table th{
+    border: solid 1px rgb(154, 20, 167);
+    padding: 10px 15px;
+}
+
+.my-table tr:nth-child(odd){
+    color:rgb(255, 254, 166)
+}
+.my-table td:nth-child(even), 
+.my-table th:nth-child(even){
+    background-color: rgb(236, 179, 73);
+}
+
+.my-table tr:last-child td:nth-child(2){
+    text-align: center;
+}
+
+#register {
+    width: 300px;
+    background-color: rgb(149, 207, 255);
+    margin: 10px auto ;
+    border-radius: 50px;
+    padding: 60px;
+}
+#register input[type = text],
+#register input[type = password],
+#register textarea,
+#register select  {
+    background-color: rgb(211, 221, 233);
+    padding: 7px;
+    border-radius: 5px;
+    color: rgb(94, 37, 77);
+    margin-bottom: 10px;
+    border: 1px solid rgb(65, 21, 66);
+}
+
+#register input[type = submit]{
+    background: rgb(32, 92, 94);
+    border-radius: 2px;
+    color: rgb(213, 193, 233);
+    border: none;
+}
+#register input[type = submit]:hover{
+    background: #478b77;
+}
+
+#register input[type = radio]{
+    accent-color: #348d89;
+}
+
+.termins{
+    border: solid 10px #e63946;
+    border-collapse: collapse;
+}
+.termins td,
+.termins th{
+    border: solid 1px #f1faee;
+    padding: 10px 15px;
+}
+
+.termins tr:nth-child(odd){
+    background-color:#a5cde6
+}
+
+.termins  td:nth-child(1),
+.termins tr:last-child{
+    text-align: right;
+    color: rgb(194, 51, 110);
+} 
+
+

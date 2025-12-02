@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Сайт версталщика</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1> Джеймс Артур Гослинг</h1>
+        <img src="img/java-svgrepo-com (1).svg" alt="логотип" width="50px">
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#about">Введение</a></li>
+            <li><a href="#articles">Информация</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="about">
+            <h2>Введение</h2>
+            <img src="img/jamesgosling1642web.jpg" alt="фото гослинга" width="800" height="600">
+            <p>Джеймс Гослинг — канадский учёный-компьютерщик, наиболее известный как изобретатель языка программирования Java и виртуальной машины. Изначально названный «Дуб» в честь дерева, росшего перед его офисом в Sun Microsystems, Java сегодня имеет несколько дистрибутивов с открытым исходным кодом, включая OpenJDK и Amazon Corretto. Помимо работы над Java, Гослинг также разработал программное обеспечение для операционной системы Unix, в том числе утилиту shar, которая использовалась для упаковки программ и файлов в самораспаковывающиеся архивы. Получив широкое признание за свой вклад в область информатики, Гослинг был удостоен звания офицера Ордена Канады — высшей гражданской награды страны.</p> 
+            <p>Он известен как отец языка программирования Java . Он получил идею Java VM , когда писал программу для переноса программного обеспечения с PERQ путем трансляции Perq Q-Code в ассемблер VAX и эмуляции оборудования. Ему обычно приписывают изобретение языка программирования Java в 1994 году. Он создал оригинальный дизайн Java и реализовал оригинальный компилятор и виртуальную машину языка .</p>
+           <section id="quarts">
+             <q>Одна из самых сложных вещей в жизни — это выбор. Мне было трудно сказать «нет» множеству других отличных возможностей. (Джеймс Гослинг)</q>
+           </section>
+        </section>
+        <h2>Информация</h2>
+        <section id="articles">
+            <ol>
+                <li><a href="article1.html">Биография</a></li>
+                <li><a href="article2.html">Основные достижения/изобретения</a></li>
+                <li><a href="article3.html">Интересные факты</a></li>
+                 <li><a href="article4.html">Список терминов</a></li>
+            </ol>
+       </section>
+
+       <form action="" id="contact-form">
+            <h2><ins>Связаться с нами</ins></h2>
+    
+            <div class="form_item">
+                <label for="topic">Причина обращеия</label><br>
+                <select name="topic" id="topic" required>
+                    <option value="1">Письмо в тех.поддержку</option>
+                    <option value="2">Написать отзыв</option>
+                    <option value="3">Вопросы по сотрудничеству</option>
+                    <option value="4">Другое...</option>
+                </select>
+            </div>
+    
+            <div class="form_item">
+                <label for="name">Имя пользователя</label><br>
+                <input  name="name" id="name" type="text" placeholder="Логин" required>
+            </div>
+    
+            <div class="form_item"class="form_item">
+                <label for="E-mail">E-mail</label><br>
+                <input name="E-mail" id="E-mail" type="email" placeholder="E-mail" required>
+            </div>
+    
+            <div class="form_item">
+                <label for="message">Текст сообщения</label><br>
+                <textarea name="message" id="message" placeholder="Напишите в этом поле ваше обращение" required ></textarea><br>
+            </div>
+            <div class="form_item">
+                
+                <label for="date">Дата</label><br>
+                <input type="date" required id="date"><br>
+                <label for="box">Согласие на обработку данных </label>
+                <input type="checkbox" name="" id="box" required>
+                <label for="box1">Согласие на рассылку </label>
+                <input type="checkbox" name="" id="box1" required>
+                
+            </div>
+    
+            <div class="form_item" >
+                <input type="submit" placeholder="ОТПРАВИТЬ">
+            </div>
+        </form>
+
+
+    </main>
+    <footer>
+        <p>&copy; Волокитин Максим , 2025 г.</p>
+        <dt>Контактные данные:<dt>
+        <a href="tel:89995839903" >8(999)-583-99-03</a>
+        <a href="mailto:maxvolokitin08@gmail.com" >maxvolokitin08@gmail.com</a>
+              <dd>  <a target="_blank" href="https://vk.com/d1rwok3" ><img src="img/vk-vk-svgrepo-com.svg" alt="vk" width="2%"></a> <a target="_blank" href="https://workspace.google.com/intl/ru/gmail/" ><img src="img/gmail-svgrepo-com.svg" alt="gmail" width="2%"></a>  <a target="_blank" href="https://ru.wikipedia.org/wiki/%D0%A2%D0%B5%D0%BB%D0%B5%D1%84%D0%BE%D0%BD" ><img src="img/telephone-signal-svgrepo-com.svg" alt="phone" width="2%"></a>  </dd>
+    </footer>    
+</body>
+</html>      
+
+
